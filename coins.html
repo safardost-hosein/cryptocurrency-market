@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="section.css" />
+    <link rel="stylesheet" href="coins-section.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="icon" href="assets/images/bitcoin.png" />
+    <title>coins</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="humburgerBtn"><i class="fa-solid fa-bars"></i></div>
+          <div class="icons">
+            <i class="fa-brands fa-discord"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="navbar-content">
+            <ul>
+              <li><a href="index.html"> خانه</a></li>
+              <li><a href="#3">چرا کوین&zwnj;هات</a></li>
+              <li><a href="#4">دیسکورد</a></li>
+            </ul>
+          </div>
+          <div class="logo"><p>coinHot</p></div>
+        </div>
+        <div class="sideNav">
+          <i class="fa-solid fa-x xBtn"></i>
+          <ul>
+            <li><a href="index.html"> خانه</a></li>
+            <li><a href="#3">چرا کوین&zwnj;هات</a></li>
+            <li><a href="#4">دیسکورد</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="coin-traking"></div>
+      <div class="loader">
+        <div class="inner one"></div>
+        <div class="inner two"></div>
+        <div class="inner three"></div>
+      </div>
+      <canvas class="myChart"></canvas>
+    </section>
+
+    <main>
+      <section id="3">
+        <div class="why-us">
+          <h1>چرا<span> کوین&zwnj;هات</span></h1>
+          <div class="container">
+            <div class="reasons">
+              <span><i class="fa-solid fa-wallet"></i></span>
+              <p>کیف پول مطمئن<small>کیفت پول رو وصل کن</small></p>
+            </div>
+            <div class="reasons">
+              <span><i class="fa-solid fa-pen-ruler"></i></span>
+              <p>
+                بدون محدویت در تعداد کوین<small
+                  >تعدادی که میخواهی را وصل کن</small
+                >
+              </p>
+            </div>
+            <div class="reasons">
+              <span><i class="fa-solid fa-bolt"></i></span>
+              <p>با اطمینان معامله کن<small>کوین هاتو خرید و فروش کن</small></p>
+            </div>
+            <div class="reasons">
+              <span><i class="fa-solid fa-satellite-dish"></i></span>
+              <p>
+                با قابلیت استفاده از NFT<small
+                  >همه چیز رو یک جا با اطمینان مدیریت کن</small
+                >
+              </p>
+            </div>
+            <div class="reasons">
+              <span><i class="fa-solid fa-chess-knight"></i></span>
+              <p>
+                بدون محدویت در تعداد صرافی ها
+                <small>تمام صرافی هارو پشتیبانی می کنیم</small>
+              </p>
+            </div>
+            <div class="reasons">
+              <span><i class="fa-solid fa-boxes-stacked"></i></span>
+              <p>
+                مجموعه رمز ارزهاتو گسترش بده<small
+                  >ما کمکت می کنیم راحت و مطمئن معامله کنی</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="4">
+        <div class="discord">
+          <h1>سرور دیسکورد <br /><span>کوین&zwnj;هات</span></h1>
+          <h2>مدیریت و خریدوفروش رمزارزهات</h2>
+          <div class="btn"><a href="https://discord.com/">Discord</a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="assets/images/footer-bg2.png" alt="bg2" />
+
+      <div class="footer-content">
+        <div class="footer-socials">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-discord"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="footer-text">
+          <p>حریم خصوصی</p>
+          <p>شرایط استفاده</p>
+        </div>
+      </div>
+      <img src="assets/images/footer-bg1.png" alt="bg1" />
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+    <script src="coins-script.js"></script>
+  </body>
+</html>

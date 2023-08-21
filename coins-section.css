@@ -1,0 +1,62 @@
+
+.coin-traking {
+  margin: 5vw;
+  color: var(--color-white-900);
+  min-height: 15vh;
+  position: relative;
+  text-align: center;
+}
+.coin-traking .p2-coins {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+
+}
+.coin-traking .p2-coins .figur {
+  flex: 1;
+  display: flex;
+  flex-direction:row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  max-height: 20vh;
+  border-bottom: 1px solid var( --color-black-300);
+}
+.coin-traking .p2-coins .figur img {
+  flex: 1;
+  max-width: 10vw;
+}
+.coin-traking .p2-coins .figur p {
+  font-size: 3.5vw;
+  flex: 1;
+  text-align: center;
+}
+.coin-traking .p2-coins  .market {
+  flex: 1;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 20px;
+
+}
+.coin-traking .p2-coins  .market p{
+  font-size: 2vw;
+}
+
+
+@media screen and (min-width: 800px) {
+  .coin-traking .p2-coins .figur p{
+    font-size: 2.5vw;
+
+  }
+  .coin-traking .p2-coins  .market p{
+    font-size: 1.8vw;   
+  }
+  .coin-traking .p2-coins .figur img{
+    max-width: 6vw;
+
+  }
+  }

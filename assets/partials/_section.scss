@@ -1,0 +1,313 @@
+/* start section 1 */ /* start section 1 */ /* start section 1 */
+.mainCoin-container {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  @include flex-center;
+  margin: 50px 10px 0 10px;
+  .coin-container {
+    flex: 1;
+    flex-direction: column;
+    @include flex-center;
+    color: $--color--white-900;
+    img {
+      width: 50px;
+      animation-name: upAndDownX;
+     @include animation-propertis;
+    }
+    .name-change .change {
+      border-radius: 5px;
+      text-align: center;
+      padding: 0 5px;
+    }
+  }
+}
+/* start Responsive section 1 */
+@media screen and (max-width: 600px) {
+  .mainCoin-container {
+    row-gap: 20px;
+    .coin-container {
+      flex: 50%;
+      img {
+        width: 40px;
+      }
+    }
+  }
+
+ 
+}
+@media screen and (max-width: 300px) {
+  .mainCoin-container .coin-container {
+    .name-change > span {
+      font-size: 0.4em;
+    }
+    .coin-value {
+      font-size: 0.6em;
+    }
+    img {
+      width: 30px;
+    }
+  }
+ 
+}
+@media screen and (min-width: 1000px) {
+  .mainCoin-container .coin-container {
+    .name-change > span {
+      font-size: 1.4em;
+    }
+    .coin-value {
+      font-size: 1.6em;
+    }
+    img {
+      width: 80px;
+    }
+  }
+}
+
+/* End Responsive section 1 */
+
+/* End section 1 */ /* End section 1 */ /* End section 1 */
+
+/* start section 2 */ /* start section 2 */ /* start section 2 */
+
+.table {
+  @include flex-center;
+  flex-direction: column;
+  margin: 50px 10px 0 10px;
+  .table-row-header {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 4vh;
+    background-image: $--color--main-gradient;
+    .table-cell {
+      flex: 1;
+      text-align: center;
+      color: $--color--white-900;
+      font-size: 1.2em;
+    }
+  }
+  .table-row {
+    flex: 1;
+    width: 100%;
+    min-height: 40vh;
+    position: relative;
+    text-align: center;
+    .table-coins {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      color: $--color--white-900;
+      border-bottom: 1px solid $--color--white-900;
+      height: 50px;
+      &:hover{
+        background-color: $--color--black-600;
+        cursor: pointer;
+        transform: scale(1.02);
+      }
+      .name {
+        flex: 1;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 20px;
+      }
+      small{
+        display: none;
+      }
+      .name img {
+        width: 30px;
+      }
+      .name span {
+        font-size: 0.8em;
+      }
+      .price {
+        flex: 1;
+        text-align: center;
+      }
+      .change {
+        flex: 1;
+        direction: ltr;
+        text-align: center;
+      }
+      .marketValue {
+        flex: 1;
+        text-align: center;
+      }
+    }
+  }
+}
+.table .table-row .table-coins:nth-child(19) .name span,
+.table .table-row .table-coins:nth-child(32) .name span,
+.table .table-row .table-coins:nth-child(42) .name span {
+  font-size: 1.3vw;
+}
+
+/* start Responsive section 2 */
+@media screen and (max-width: 599px) {
+  .table .table-row-header .table-cell {
+    font-size: 3vw;
+  }
+  .table .table-row .table-coins{
+    &> * {
+      font-size: 2.4vw;
+    }
+    .name img {
+      width: 20px;
+    }
+  } 
+}
+@media screen and (max-width: 300px) {
+  .table .table-row-header .table-cell,
+  .table .table-row .table-coins > * {
+    font-size: 3.2vw;
+  }
+  .table .table-row-header .table-cell:nth-child(1),
+  .table .table-row .table-coins .marketValue {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .table .table-row-header .table-cell,
+  .table .table-row .table-coins{
+    padding: 30px 0 30px 0;
+    &> * {
+      font-size: 1.8vw;
+    }
+    .name img {
+      width: 40px;
+    }
+  } 
+
+  .table .table-row-header {
+    min-height: 8vh;
+  }
+}
+
+/* End Responsive section 2 */
+
+/* End section 2 */ /* End section 2 */ /* End section 2 */
+
+/* start scetion 3 *//* start scetion 3 *//* start scetion 3 */
+
+.why-us{
+  flex-direction: column;
+  @include flex-center;
+  h1{
+    flex: 1;
+    color: $--color--white-900;
+    font-size: 8vw;
+    margin: 100px auto;
+    white-space: nowrap;
+    span{
+      font-size: 8vw;
+      @include colorful-text;
+    }
+  }
+  .container{
+    flex: 1;
+    color: $--color--white-900;
+    
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    .reasons{
+      display: flex;
+      flex-direction: row;
+      background-color: $--color--black-600;
+      border-radius: 10px;
+      flex-wrap: wrap;
+      height: 100px;
+      span {
+        flex: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        i{
+          padding: 10px;
+          font-size: 5vw;
+          background-image:$--color--main-gradient;
+          border-radius: 10px;
+        }
+      }
+      p{
+        flex: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        font-size: 2.1vw;
+        small{
+          font-size: 1.2vw;
+          color:$--color--black-300;
+        }
+      }
+    }
+  }
+}
+/* start reponsive section 3 */
+@media screen and (max-width:600px){
+  .why-us{
+    h1{
+      margin: 50px auto;
+    }
+    .container{
+      grid-template-columns: auto;
+     
+      .reasons p{
+        font-size: 4.5vw;
+        small{
+          font-size: 3vw;
+        }
+      }
+      
+    }
+  } 
+}
+
+/* End reponsive section 3 */
+
+/* End section 3 *//* End section 3 *//* End section 3 */
+
+/* start sction 4 *//* start sction 4 *//* start sction 4 */
+
+.discord{
+  @include flex-center;
+  flex-direction: column;
+  color: $--color--white-900;
+  h1{
+    flex:1;
+    font-size: 8vw;
+    margin-top: 10vw;
+    white-space: nowrap;
+    text-align: center;
+    span{
+      font-size: 8vw;
+     @include colorful-text;
+    }
+  }
+  h2{
+    font-size: 2vw;
+    margin: 3vw auto;
+    color:$--color--black-300;
+  }
+  .btn{
+    background-image:$--color--main-gradient;
+    text-align: center;
+    @include flex-center;
+    padding: 0.5vw 3vw;
+    border-radius: 40px;
+    a{
+      font-size: 2vw;
+    
+    }
+  
+  }
+
+}
+
+/* End secton 4 *//* End secton 4 *//* End secton 4 */

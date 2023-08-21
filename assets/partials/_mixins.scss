@@ -1,0 +1,18 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin colorful-text{
+    background-image:$--color--main-gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+@mixin animation-propertis{
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
