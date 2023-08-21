@@ -1,6 +1,6 @@
 # coinHot-cryptocurrency-market
 <div dir='rtl'><strong >coinHot</strong>coinHotیک وبسایت است که به کاربران امکان می‌دهد به صورت برخط اطلاعات مربوط به ارزهای دیجیتال مختلف را جستجو کنند. این وبسایت برای ارائه اطلاعات دقیق و به‌روز درباره قیمت، سرمایه‌گذاری بازار، حجم معاملات و سایر معیارهای کلیدی ارزهای رمزنگاری طراحی شده است. وبسایت به API coinranking متصل شده است که یک منبع محبوب برای اطلاعات مربوط به ارزهای رمزنگاری است </div>
-👉 Live Demo: <a href='https://safardost-hosein.github.io/coinHot-cryptocurrency-market/'>coinHot-cryptocurrency-market</a><br>  
+👉 Live Demo: <a href='https://safardost-hosein.github.io/cryptocurrency-market/'>coinHot-cryptocurrency-market</a><br>  
 
 
 Build with:<br>
