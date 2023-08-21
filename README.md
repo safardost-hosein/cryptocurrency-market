@@ -22,10 +22,10 @@ Build with:<br>
 
 <br><br>
 
-<h3 align='center'>Coin Page 🪙</h3>
+<h3 align='center'>Coin Page </h3>
 
 <div align='center'>
-<img src='https://github.com/safardost-hosein/coinHot-cryptocurrency-market/assets/134488087/0b98f428-9fbc-4bda-b11a-a77e8d62b9c7'/>
+<img src='https://github.com/safardost-hosein/cryptocurrency-market/assets/134488087/528afe4e-cad8-433a-aaf2-3461c415e794'/>
 </div>
 
 
