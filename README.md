@@ -16,7 +16,7 @@ Build with:<br>
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='https://github.com/safardost-hosein/coinHot-cryptocurrency-market/assets/134488087/702cf83d-cc55-4b8e-80a5-d0ce885dffbf'/>
+<img src='https://github.com/safardost-hosein/cryptocurrency-market/assets/134488087/3cd3d72e-832c-4af2-95ac-da8c728423ac'/>
 
 </div>
 
